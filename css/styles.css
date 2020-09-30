@@ -1,0 +1,129 @@
+body,
+html {
+    width: 100%;
+	height: 100%;
+}
+
+body, p {
+	color: #585f63;
+	font: 400 1rem/1.75rem "Open Sans", sans-serif;
+}
+
+h1 {
+	color: #30292a;
+	font: 700 2.5rem/3.25rem "Open Sans", sans-serif;
+}
+
+h2 {
+	color: #30292a;
+	font: 700 2rem/2.625rem "Open Sans", sans-serif;
+}
+
+h3 {
+	color: #30292a;
+	font: 700 1.5rem/2.25rem "Open Sans", sans-serif;
+}
+
+h4 {
+	color: #30292a;
+	font: 700 1.25rem/1.75rem "Open Sans", sans-serif;
+}
+
+h5 {
+	color: #30292a;
+	font: 700 1.125rem/1.625rem "Open Sans", sans-serif;
+}
+
+h6 {
+	color: #30292a;
+	font: 700 1rem/1.5rem "Open Sans", sans-serif;
+}
+
+.p-large {
+	font: 400 1.25rem/2rem "Open Sans", sans-serif;
+}
+
+a {
+	color: #585f63;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #585f63;
+	text-decoration: underline;
+}
+
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
+
+#particles-js {
+	position: fixed;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	background-image: url("/images/header-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.header {
+	position: relative;
+	min-height: 100%;
+	padding-top: 5rem;
+	text-align: center;
+}
+
+.header .logo-image {
+	width: 13rem;
+	margin-bottom: 2.5rem;
+}
+
+.header .text-container {
+	margin-bottom: 8rem;
+}
+
+.header h1 {
+	margin-bottom: 0.875rem;
+}
+
+.header .p-large {
+	margin-bottom: 2.75rem;
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 3rem;
+		line-height: 3.75rem;
+	}
+
+	.header {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.header .logo-image {
+		width: 18rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.header .text-container {
+		width: 54.5rem;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (min-width: 1200px) {
+	.header h1 {
+		font-size: 3.0rem;
+		line-height: 4.0rem;
+		letter-spacing: -0.4px;
+	}
+}
